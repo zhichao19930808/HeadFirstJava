@@ -7,11 +7,11 @@ package One_EnterTheJavaWorld;
 public class Loop {
     public static void main(String[] args) {
         int x = 1;
-        System.out.println("before the loop");//输出：在循环之前
+        System.out.println("before the loop...");//输出：在循环之前
         while (x < 4) {
-            System.out.println("In the loop");//输出：在循环中
+            System.out.println("In the loop...");//输出：在循环中
             x=x+1;
         }
-        System.out.println("this is after the loop");//输出：在循环后
+        System.out.println("this is after the loop...");//输出：在循环后
     }
 }
